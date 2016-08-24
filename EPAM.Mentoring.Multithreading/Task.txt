@@ -1,0 +1,7 @@
+Implement simple download manager with the following requirements:
+1) Several download queues are supported which can be run in parallel
+2) 1st queue process the items to be downloades in parallel, 2nd - as a sequence
+4) Each of the queue should have a source and destination paths (file system)
+5) Each queue or file can be cancelled
+6) All the exceptions are appropriately held
+7) UI should be as simple as possible
